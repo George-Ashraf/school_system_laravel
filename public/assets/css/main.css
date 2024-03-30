@@ -1,0 +1,109 @@
+.language {
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.done {
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4f1;
+    height: 90px;
+    font-weight: bold;
+    border-bottom: solid 2px white;
+}
+
+.login form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login form {
+    background-color: #f5f4f1;
+    padding: 30px;
+}
+
+.login form .form-group {
+    padding: 15px 0;
+}
+
+.login form .form-group .form-control {
+    height: 40px;
+    width: 300px;
+}
+
+.login button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 15px;
+    color: #f5f4f1;
+    transition: 0.3s linear ;
+}
+
+.login button:hover {
+    transform: scale(1.1);
+}
+
+.login .dont {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    text-transform: capitalize;
+    background-color: #f5f4f1;
+}
+
+.login .dont p {
+    color: grey;
+    font-weight: bold;
+}
+
+.login .dont p a {
+    color: green;
+}
+
+.login .forget {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    text-transform: capitalize;
+    background-color: #f5f4f1;
+}
+
+.login .forget p {
+    color: grey;
+    font-weight: bold;
+}
+
+.login .forget p a {
+    color: green;
+}
